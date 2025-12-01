@@ -96,12 +96,16 @@ python BasicHandTrackingDemo.py
 ```
 hand-gesture-volume-control/
 │
-├── HandTrackingModule.py       # Reusable hand detector class (MediaPipe wrapper)
-├── VolumeControl.py            # Main application with volume control logic
-├── BasicHandTrackingDemo.py    # Standalone hand tracking visualization
-├── requirements.txt            # Python package dependencies
-├── README.md                   # Project documentation
-└── .gitignore                  # Git ignore rules
+├── assets/                    # Contains demo.gif 
+│   ├── demo.gif
+│
+├── HandTrackingModule.py      # Reusable hand detector class (MediaPipe wrapper)
+├── VolumeControl.py           # Main application with volume control logic
+├── BasicHandTrackingDemo.py   # Standalone hand tracking visualization
+├── requirements.txt           # Python package dependencies
+├── README.md                  # Project documentation
+└── .gitignore                 # Git ignore rules
+
 ```
 
 ## 🔧 Configuration
